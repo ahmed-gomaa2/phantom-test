@@ -1,0 +1,35 @@
+.bill {
+    border: 1px #2d325a solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    cursor: pointer;
+    transition: ease-in all 0.1s;
+
+    &:hover {
+        background: #6f7291;
+        .bill__bill {
+            color: #202342;
+        }
+    }
+
+    .bill__bill {
+        color: #6f7291;
+    }
+
+    .bill__dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fe7448;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+}

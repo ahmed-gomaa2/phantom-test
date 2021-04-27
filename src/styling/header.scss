@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+
+    .header__arrow {
+        color: white;
+        margin-left: 20px;
+    }
+}
